@@ -6,3 +6,4 @@ Facespace = CalculateFacespace(NormFaces, Eigens);
 SaveFacespace(Facespace);
 FacespaceCoefficients = CalculateFacespaceCoefficients(Facespace, Faces);
 SaveFacespaceCoefficients(FacespaceCoefficients);
+MeanSquareError = CalculateMeanSquareError(Facespace);
